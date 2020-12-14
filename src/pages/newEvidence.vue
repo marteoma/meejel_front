@@ -781,7 +781,7 @@ export default {
       }
       if (this.arrayRules10.length > 0 || this.arrayObjectives10.length > 0 || this.rols[9] || this.steps[9] || this.mat[9] || this.grades[9] !== '') {
         let principle = {}
-        principle.id = 'Orientado al bienestar'
+        principle.id = 'Basado en el conocimiento'
         principle.evidencias = []
         this.arrayRules10.forEach(element => {
           principle.evidencias.push(element)
